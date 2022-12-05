@@ -40,6 +40,10 @@ a {
     justify-content: center;
 }
 
+.product_image > img {
+    max-width: 200px;
+}
+
 .product_foot {
     display: flex;
     width: 100%;
@@ -47,11 +51,29 @@ a {
     padding: 10px 5px;
 }
 
+.product_foot > div:last-child {
+    text-align: center;
+}
+
 .product_image {
     max-width: 200px;
     height: 200px;
-    background-color: blueviolet;
     border-radius: 25px;
+}
+
+.product_count {
+    display: flex;
+}
+
+.product_count,
+.product_name {
+    margin-bottom: 10px;
+}
+
+.product_count > button {
+    margin: 0 5px;
+    height: 20px;
+    width: 20px;
 }
 
 .product_name,
