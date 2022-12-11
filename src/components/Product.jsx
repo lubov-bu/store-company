@@ -4,13 +4,13 @@ import Counter from "./Counter";
 const Product = (props) => {
     return (
         <a href="#" id="product">
-            <div className="product_image">
-                <img src="http://45.83.123.5/lusa/img/connecting.png" alt="Product"></img>
+            <div className="product__image">
+                <img src="#" alt="Product"></img>
             </div>
-            <div className="product_foot">
+            <div className="product__foot">
                 <div>
-                    <p className="product_name">{props.product.title}</p>
-                    <p className="product_price">{props.product.price}</p>
+                    <p className="product__name">{props.product.title}</p>
+                    <p className="product__price">{props.product.price}</p>
                 </div>
                 <div>
                     <Counter/>
