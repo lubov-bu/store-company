@@ -18,15 +18,14 @@ const ProductsList = ({title}) => {
 
     const [selectedSort, setSelectedSort] = useState('')
 
-    const sortPriceToLess= (sort) => {
+    const sortPriceToLess = (sort) => {
         setSelectedSort(sort);
 
-        setProducts([...products].sort((a, b) => b[sort].localeCompare(a[sort])))
-    }
-    const sortPriceToHigh = (sort) => {
-        setSelectedSort(sort);
-
-        setProducts([...products].sort((a, b) => a[sort].localeCompare(b[sort])))
+        if (sort === "min-price") {
+            setProducts([...products].sort((a, b) => b['price'].localeCompare(a['price'])))
+        } else {
+            setProducts([...products].sort((a, b) => a['price'].localeCompare(b['price'])))
+        }
     }
 
     return (
@@ -38,8 +37,8 @@ const ProductsList = ({title}) => {
                     onChange={sortPriceToLess}
                     defaultValue="Sort by price"
                     options={[
-                        {id: 1, value: 'price', name: 'Less to high price'},
-                        {id: 2, value: 'price', name: 'High to less price'},
+                        {value: 'min-price', name: 'High to less price'},
+                        {value: 'max-price', name: 'Less to high price'},
                     ]}
                 />
             </div>
