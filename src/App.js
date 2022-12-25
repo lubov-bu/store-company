@@ -1,12 +1,13 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './styles/app.css'
 import ProductsList from "./components/ProductsList";
+import NavPanel from "./components/UI/Navigation/NavPanel";
 
 function App() {
 
   return (
     <div className="App">
-        <h1 className="app__name">Clothes Store</h1>
+        <NavPanel/>
         <ProductsList title="Top"/>
         <ProductsList title="Shoes"/>
     </div>

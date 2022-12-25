@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Product from "./Product";
-import PriceFilter from "./select/PriceFilter";
-import {selectOptions} from "@testing-library/user-event/dist/select-options";
+import PriceFilter from "./UI/select/PriceFilter";
 
 
 const ProductsList = ({title}) => {
@@ -18,7 +17,7 @@ const ProductsList = ({title}) => {
 
     const [selectedSort, setSelectedSort] = useState('')
 
-    const sortPriceToLess = (sort) => {
+    const sortPrice = (sort) => {
         setSelectedSort(sort);
 
         if (sort === "min-price") {
@@ -34,7 +33,7 @@ const ProductsList = ({title}) => {
                 <h1 className="products__title">{title}</h1>
                 <PriceFilter
                     value={selectedSort}
-                    onChange={sortPriceToLess}
+                    onChange={sortPrice}
                     defaultValue="Sort by price"
                     options={[
                         {value: 'min-price', name: 'High to less price'},
