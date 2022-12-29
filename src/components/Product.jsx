@@ -5,7 +5,7 @@ const Product = (props) => {
     return (
         <a href="#" id="product">
             <div className="product__image">
-                <img src="#" alt="Product"></img>
+                <img src="http://195.133.75.184/images/top-1.jpg" alt="Product"></img>
             </div>
             <div className="product__foot">
                 <div>
