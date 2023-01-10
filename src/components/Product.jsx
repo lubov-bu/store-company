@@ -14,7 +14,7 @@ const Product = (props) => {
                 </div>
                 <div>
                     <Counter/>
-                    <img src="http://45.83.123.5/lusa/img/bubble.png" alt="Cart"/>
+                    <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
                 </div>
             </div>
         </a>
