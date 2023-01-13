@@ -30,16 +30,21 @@ const ProductsList = ({title}) => {
     return (
         <div>
             <div className="products__top">
-                <h1 className="products__title">{title}</h1>
-                <PriceFilter
-                    value={selectedSort}
-                    onChange={sortPrice}
-                    defaultValue="Sort by price"
-                    options={[
-                        {value: 'min-price', name: 'High to less price'},
-                        {value: 'max-price', name: 'Less to high price'},
-                    ]}
-                />
+                <div>
+                    <h1 className="products__title">{title}</h1>
+                    <PriceFilter
+                        value={selectedSort}
+                        onChange={sortPrice}
+                        defaultValue="Sort by price"
+                        options={[
+                            {value: 'min-price', name: 'High to less price'},
+                            {value: 'max-price', name: 'Less to high price'},
+                        ]}
+                    />
+                </div>
+                <div>
+                    <img className="products__pic" src="http://195.133.75.184/images/heart-pic.png" alt="Heart"/>
+                </div>
             </div>
             <div className="goods">
                 {products.map(product =>
