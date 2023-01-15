@@ -33,6 +33,11 @@ a {
     max-height: 30px;
 }
 
+.middleLine {
+    display: flex;
+    align-items: center;
+}
+
 .goods {
     display: grid;
     grid-template-columns: repeat(4, max(230px));
@@ -99,6 +104,7 @@ a {
 
 .product__count {
     display: flex;
+    height: 17px;
 }
 
 .product__count,

@@ -1,10 +1,17 @@
 import React from 'react';
 import cl from './LogInModal.module.css'
 
-const LogInModal = ({children}) => {
+const LogInModal = ({children, visible}) => {
+
+    const rootClasses = [cl.logInModal]
+
+    if (visible) {
+        rootClasses.push(cl.active);
+    }
+
     return (
         <div>
-            <div className={[cl.logInModal, cl.logInModalActive].join(' ')}>
+            <div className={rootClasses.join(' ')}>
                 <div className={cl.logInModalContent}>
                     {children}
                 </div>
