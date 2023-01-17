@@ -33,6 +33,10 @@ a {
     max-height: 30px;
 }
 
+.hidden {
+    display: none;
+}
+
 .middleLine {
     display: flex;
     align-items: center;
