@@ -14,7 +14,7 @@ function App() {
     return (
     <div className="App">
         <LogInModal visible={modal} setVisisble={setModal}>
-            <div className="modalBack" onClick={() => setModal(false)}></div>
+            <div className={cl.modalBack} onClick={() => setModal(false)}></div>
             <LogInForm>
                 <button className={cl.loginExit} onClick={() => setModal(false)}>x</button>
             </LogInForm>
