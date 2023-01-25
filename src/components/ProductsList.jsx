@@ -2,17 +2,25 @@ import React, {useState} from 'react';
 import Product from "./Product";
 import PriceFilter from "./UI/select/PriceFilter";
 
+let productRequestURL = 'http://195.133.75.184/dataCloths.json';
+
+let request = new XMLHttpRequest();
+
+request.open('GET', productRequestURL);
+request.responseType = 'text';
+request.send();
+
+request.onload = function () {
+    let productsList = request.response;
+    let cardOfGoods = JSON.parse(productsList);
+    ProductsList(cardOfGoods);
+}
+
 
 const ProductsList = ({title}) => {
-    const [products, setProducts] = useState([
-        {id: 1, title: 'Skirt', price: '2,43$'},
-        {id: 2, title: 'Shirt', price: '2,13$'},
-        {id: 3, title: 'Dress', price: '2,9$'},
-        {id: 4, title: 'Pants', price: '9,3$'},
-        {id: 5, title: 'Skirt', price: '2,03$'},
-        {id: 6, title: 'Shirt', price: '2,15$'},
-        {id: 7, title: 'Dress', price: '2,1$'},
-        {id: 8, title: 'Pants', price: '1,4$'}
+
+    let [products, setProducts] = useState([
+
     ])
 
     const [selectedSort, setSelectedSort] = useState('')

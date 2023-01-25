@@ -1,0 +1,19 @@
+[
+    {
+        "top-1" : {
+            "name" : "top",
+            "image" : "http://195.133.75.184/images/top-1.jpg",
+            "price" : "2,96"
+        },
+        "top-2" : {
+            "name": "top",
+            "image": "http://195.133.75.184/images/top-2.jpg",
+            "price": "2,06"
+        },
+        "top-3" : {
+            "name": "top",
+            "image": "http://195.133.75.184/images/top-3.jpg",
+            "price": "1,90"
+        }
+    }
+]
