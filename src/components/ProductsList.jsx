@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Product from "./Product";
 import PriceFilter from "./UI/select/PriceFilter";
 
-let productRequestURL = 'http://195.133.75.184/dataCloths.json';
+let productRequestURL = 'http://localhost:3000/dataCloths.json';
 
 let request = new XMLHttpRequest();
 
@@ -14,8 +14,8 @@ request.onload = function () {
     let productsList = request.response;
     let cardOfGoods = JSON.parse(productsList);
     ProductsList(cardOfGoods);
-}
 
+}
 
 const ProductsList = ({title}) => {
 
@@ -64,3 +64,6 @@ const ProductsList = ({title}) => {
 };
 
 export default ProductsList;
+
+
+
