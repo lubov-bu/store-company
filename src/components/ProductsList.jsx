@@ -13,14 +13,11 @@ request.send();
 request.onload = function () {
     let productsList = request.response;
     let cardOfGoods = JSON.parse(productsList);
-    ProductsList(cardOfGoods);
-
 }
 
 const ProductsList = ({title}) => {
 
     let [products, setProducts] = useState([
-
     ])
 
     const [selectedSort, setSelectedSort] = useState('')
