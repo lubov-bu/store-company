@@ -7,7 +7,7 @@ import LogInModal from "./components/UI/Modals/LogInModal";
 import Button from "./components/UI/Navigation/Buttons/Button";
 import LogInForm from "./components/UI/Modals/Form/LogInForm";
 import cl from "./components/UI/Modals/Form/Form.module.css";
-import Main from "./components/UI/Main/Main";
+import {Main} from "./components/UI/Main/Main";
 
 function App() {
 
