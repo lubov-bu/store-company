@@ -1,17 +1,27 @@
 import React from 'react';
 import Counter from "./Counter";
 
+
 const Product = (props) => {
+
+    const {
+        product_id: id,
+        product_name: name,
+        product_price: price,
+        product_img: image
+    } = props;
+
     return (
-        <a href="#" id="product">
+        <a href="src/components#" id="product">
             <div className="product__image">
-                <img src="http://195.133.75.184/images/top-1.jpg" alt="Product"></img>
+                <img src={image} alt="Product"></img>
             </div>
             <div className="product__foot">
                 <div>
-                    <p className="product__name">{props.product.title}</p>
-                    <p className="product__price">{props.product.price}</p>
+                    <p className="product__name">{name}</p>
+                    <p className="product__price">{price}</p>
                 </div>
+                <div>{id}</div>
                 <div>
                     <Counter/>
                     <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>

@@ -1,24 +1,10 @@
 import React, {useState} from 'react';
 import Product from "./Product";
-import PriceFilter from "./UI/select/PriceFilter";
-
-let productRequestURL = 'http://localhost:3000/dataCloths.json';
-
-let request = new XMLHttpRequest();
-
-request.open('GET', productRequestURL);
-request.responseType = 'text';
-request.send();
-
-request.onload = function () {
-    let productsList = request.response;
-    let cardOfGoods = JSON.parse(productsList);
-}
+import PriceFilter from "../select/PriceFilter";
 
 const ProductsList = ({title}) => {
 
-    let [products, setProducts] = useState([
-    ])
+    let [products, setProducts] = useState([])
 
     const [selectedSort, setSelectedSort] = useState('')
 
@@ -52,9 +38,10 @@ const ProductsList = ({title}) => {
                 </div>
             </div>
             <div className="goods">
-                {products.map(product =>
-                    <Product product={product} key={product.id}/>
-                )}
+                {products.length ? (
+                    products.map((product, id) => <Product key={id}/>)
+                    ) : (console.log("hello"))
+                }
             </div>
         </div>
     );

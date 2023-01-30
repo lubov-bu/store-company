@@ -1,14 +1,16 @@
 import React, {useState} from 'react';
 import './styles/app.css'
-import ProductsList from "./components/ProductsList";
+import ProductsList from "./components/UI/Main/ProductsList";
 import NavPanel from "./components/UI/Navigation/NavPanel";
 import Footer from "./components/UI/Footer/Footer";
 import LogInModal from "./components/UI/Modals/LogInModal";
 import Button from "./components/UI/Navigation/Buttons/Button";
 import LogInForm from "./components/UI/Modals/Form/LogInForm";
 import cl from "./components/UI/Modals/Form/Form.module.css";
+import Main from "./components/UI/Main/Main";
 
 function App() {
+
     const [modal, setModal] = useState(false);
 
     return (
@@ -24,9 +26,7 @@ function App() {
             <div className="middleLine">|</div>
             <Button>Sign Up</Button>
         </NavPanel>
-        <ProductsList title="Top"/>
-        <ProductsList title="Shoes"/>
-        <ProductsList title="Bottom"/>
+        <Main />
         <Footer/>
     </div>
   );
