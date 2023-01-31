@@ -1,5 +1,14 @@
-{
-  "id" : 2,
-  "name": "top",
-  "image": "http://195.133.75.184/images/top-5.jpg",
-  "price": "1,90"}
+[
+  {
+    "id": 1,
+    "name": "top",
+    "image": "http://195.133.75.184/images/top-5.jpg",
+    "price": "1,90"
+  },
+  {
+    "id": 2,
+    "name": "top",
+    "image": "http://195.133.75.184/images/top-5.jpg",
+    "price": "1,90"
+  }
+]
