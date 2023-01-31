@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import Product from "./Product";
 import PriceFilter from "../select/PriceFilter";
+import product from "./Product";
 
 const ProductsList = ({title}, props) => {
     // let [products, setProducts] = useState(props)
-    const { products = [] } = props;
-    console.log(products);
+    // const { products = product } = props;/**/
+    console.log(props);
 //
 //     const [selectedSort, setSelectedSort] = useState('')
 //
