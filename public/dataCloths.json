@@ -1,5 +1,38 @@
 [
-{
-  "id": 1,
-  "price": "1,90"
-}]
+  {
+    "id": 1,
+    "name": "Top",
+    "price": "1,90",
+    "image": "http://195.133.75.184/images/top-2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Top",
+    "price": "2,90",
+    "image": "http://195.133.75.184/images/top-3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Top",
+    "price": "2,90",
+    "image": "http://195.133.75.184/images/top-5.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Top",
+    "price": "1,90",
+    "image": "http://195.133.75.184/images/top-2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Top",
+    "price": "2,90",
+    "image": "http://195.133.75.184/images/top-3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Top",
+    "price": "2,90",
+    "image": "http://195.133.75.184/images/top-5.jpg"
+  }
+]
