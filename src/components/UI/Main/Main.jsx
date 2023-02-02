@@ -32,14 +32,14 @@ class Main extends React.Component {
 
     render() {
 
-        // const product_id = this.state.data.map((product) => product.id);
-        // const product_name = this.state.data.map((product) => product.name);
-        // const product_price = this.state.data.map((product) => product.price);
-        // const product_image = this.state.data.map((product) => product.image);
+        const product_id = this.state.data.map((product) => product.id);
+        const product_name = this.state.data.map((product) => product.name);
+        const product_price = this.state.data.map((product) => product.price);
+        const product_image = this.state.data.map((product) => product.image);
 
         return (
             <div>
-                <div>{this.state.data.map((product) => <div>id: {product.id}, price: {product.price}</div>)}</div>
+
                 <div className="products__top">
                     <div>
                         <img className="products__pic" src="http://195.133.75.184/images/heart-pic.png" alt="Heart"/>
@@ -48,12 +48,12 @@ class Main extends React.Component {
                 <div className="goods">
                     <a href="#" id="product">
                         <div className="product__image">
-                            <img src="#" alt="Product"></img>
+                            <img src={product_image[0]} alt="Product"></img>
                         </div>
                         <div className="product__foot">
                             <div>
-                                <p className="product__name">{}</p>
-                                <p className="product__price">{}</p>
+                                <p className="product__name">{product_name[0]}</p>
+                                <p className="product__price">{product_price[0]}</p>
                             </div>
                             <div>
                                 <Counter/>
@@ -68,8 +68,7 @@ class Main extends React.Component {
 }
 
 export {Main};
-//
-//
+
 // <div>
 //     <h1 className="products__title">{}</h1>
 //     <PriceFilter

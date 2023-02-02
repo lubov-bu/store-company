@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './styles/app.css'
-import ProductsList from "./components/UI/Main/ProductsList";
 import NavPanel from "./components/UI/Navigation/NavPanel";
 import Footer from "./components/UI/Footer/Footer";
 import LogInModal from "./components/UI/Modals/LogInModal";
