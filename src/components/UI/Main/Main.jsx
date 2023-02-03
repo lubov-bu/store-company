@@ -1,5 +1,6 @@
-import React, {useState} from "react";
-import PriceFilter from "../select/PriceFilter";
+import React from "react";
+// import React, {useState} from "react";
+// import PriceFilter from "../select/PriceFilter";
 import Counter from "./Counter";
 //
 // const [selectedSort, setSelectedSort] = useState('')
@@ -39,14 +40,14 @@ class Main extends React.Component {
 
         return (
             <div>
-
                 <div className="products__top">
+                    <h1 className="products__title">Top</h1>
                     <div>
                         <img className="products__pic" src="http://195.133.75.184/images/heart-pic.png" alt="Heart"/>
                     </div>
                 </div>
                 <div className="goods">
-                    <a href="#" id="product">
+                    {this.state.data.map((product) => <a href="#" id="product">
                         <div className="product__image">
                             <img src={product_image[0]} alt="Product"></img>
                         </div>
@@ -60,7 +61,8 @@ class Main extends React.Component {
                                 <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
                             </div>
                         </div>
-                    </a>
+                    </a>)}
+
                 </div>
             </div>
         )
