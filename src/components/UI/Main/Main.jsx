@@ -31,12 +31,23 @@ class Main extends React.Component {
 
     }
 
+
     render() {
 
         const product_id = this.state.data.map((product) => product.id);
         const product_name = this.state.data.map((product) => product.name);
         const product_price = this.state.data.map((product) => product.price);
         const product_image = this.state.data.map((product) => product.image);
+        //
+        // function showProduct() {
+        //     for (var i = 0; i < this.state.data.length; i++) {
+        //         var h1 = document.createElement('h1');
+        //         var p1 = document.createElement('p');
+        //
+        //         h1.appendChild(p1);
+        //     }
+        // }
+        //
 
         return (
             <div>
@@ -61,8 +72,7 @@ class Main extends React.Component {
                                 <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
                             </div>
                         </div>
-                    </a>)}
-
+                    </a> )}
                 </div>
             </div>
         )
