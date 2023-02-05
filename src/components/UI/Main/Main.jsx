@@ -27,12 +27,12 @@ class Main extends React.Component {
         fetch("http://localhost:3000/dataCloths.json")
 
             .then((response) => response.json())
-            .then(data => this.setState({ data }));
+            .then(data => this.setState({data}));
 
     }
 
-
     render() {
+
 
         const product_id = this.state.data.map((product) => product.id);
         const product_name = this.state.data.map((product) => product.name);
