@@ -1,20 +1,5 @@
 import React from "react";
-// import React, {useState} from "react";
-// import PriceFilter from "../select/PriceFilter";
 import Counter from "./Counter";
-//
-// const [selectedSort, setSelectedSort] = useState('')
-//
-// const sortPrice = (sort) => {
-//     setSelectedSort(sort);
-//
-//     if (sort === "min-price") {
-//         setProducts([...products].sort((a, b) => b['price'].localeCompare(a['price'])))
-//     } else {
-//         setProducts([...products].sort((a, b) => a['price'].localeCompare(b['price'])))
-//     }
-// }
-
 
 class Main extends React.Component {
     constructor(props) {
@@ -32,23 +17,6 @@ class Main extends React.Component {
     }
 
     render() {
-
-
-        const product_id = this.state.data.map((product) => product.id);
-        const product_name = this.state.data.map((product) => product.name);
-        const product_price = this.state.data.map((product) => product.price);
-        const product_image = this.state.data.map((product) => product.image);
-        //
-        // function showProduct() {
-        //     for (var i = 0; i < this.state.data.length; i++) {
-        //         var h1 = document.createElement('h1');
-        //         var p1 = document.createElement('p');
-        //
-        //         h1.appendChild(p1);
-        //     }
-        // }
-        //
-
         return (
             <div>
                 <div className="products__top">
@@ -58,21 +26,21 @@ class Main extends React.Component {
                     </div>
                 </div>
                 <div className="goods">
-                    {this.state.data.map((product) => <a href="#" id="product">
+                    {this.state.data.map((product) => <a className={""}>
                         <div className="product__image">
-                            <img src={product_image[0]} alt="Product"></img>
+                            <img src={product.image} alt="Product"></img>
                         </div>
                         <div className="product__foot">
                             <div>
-                                <p className="product__name">{product_name[0]}</p>
-                                <p className="product__price">{product_price[0]}</p>
+                                <p className={"product__name"}>{product.name}</p>
+                                <p className={"product__price"}>{product.price}</p>
                             </div>
                             <div>
                                 <Counter/>
                                 <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
                             </div>
                         </div>
-                    </a> )}
+                    </a>).sort()}
                 </div>
             </div>
         )
@@ -80,16 +48,3 @@ class Main extends React.Component {
 }
 
 export {Main};
-
-// <div>
-//     <h1 className="products__title">{}</h1>
-//     <PriceFilter
-//         value={selectedSort}
-//         onChange={sortPrice}
-//         defaultValue="Sort by price"
-//         options={[
-//             {value: 'min-price', name: 'High to less price'},
-//             {value: 'max-price', name: 'Less to high price'},
-//         ]}
-//     />
-// </div>
