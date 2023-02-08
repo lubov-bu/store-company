@@ -12,7 +12,10 @@ class Main extends React.Component {
         fetch("http://localhost:3000/dataCloths.json")
 
             .then((response) => response.json())
-            .then(data => this.setState({data}));
+            .then((data) => {
+                data.sort((a, b) => a.name.localeCompare(b.name));
+                this.setState({data});
+            });
 
     }
 
@@ -40,7 +43,7 @@ class Main extends React.Component {
                                 <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
                             </div>
                         </div>
-                    </a>).sort()}
+                    </a>)}
                 </div>
             </div>
         )

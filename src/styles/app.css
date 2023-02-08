@@ -129,6 +129,7 @@ a {
 
 .product__price {
     color: #a15f7f;
+    text-align: left;
 }
 
 .product__cart {
