@@ -1,5 +1,7 @@
 import React from "react";
 import Counter from "./Counter";
+import ProductList from "./ProductList";
+
 
 class Main extends React.Component {
     constructor(props) {
@@ -21,30 +23,22 @@ class Main extends React.Component {
 
     render() {
         return (
-            <div>
-                <div className="products__top">
-                    <h1 className="products__title">Top</h1>
-                    <div>
-                        <img className="products__pic" src="http://195.133.75.184/images/heart-pic.png" alt="Heart"/>
+            <div className="goods">
+                {this.state.data.map((product) => <a className={""}>
+                    <div className="product__image">
+                        <img src={product.image} alt="Product"></img>
                     </div>
-                </div>
-                <div className="goods">
-                    {this.state.data.map((product) => <a className={""}>
-                        <div className="product__image">
-                            <img src={product.image} alt="Product"></img>
+                    <div className="product__foot">
+                        <div>
+                            <p className={"product__name"}>{product.name}</p>
+                            <p className={"product__price"}>{product.price}</p>
                         </div>
-                        <div className="product__foot">
-                            <div>
-                                <p className={"product__name"}>{product.name}</p>
-                                <p className={"product__price"}>{product.price}</p>
-                            </div>
-                            <div>
-                                <Counter/>
-                                <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
-                            </div>
+                        <div>
+                            <Counter/>
+                            <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
                         </div>
-                    </a>)}
-                </div>
+                    </div>
+                </a>)}
             </div>
         )
     }
