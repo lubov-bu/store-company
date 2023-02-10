@@ -1,6 +1,7 @@
 import React from 'react';
 
 const PriceFilter = ({options, defaultValue, value, onChange}) => {
+
     return (
         <select
             value={value}

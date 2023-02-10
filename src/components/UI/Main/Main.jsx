@@ -1,7 +1,6 @@
 import React from "react";
 import Counter from "./Counter";
-import ProductList from "./ProductList";
-
+import PriceSort from "./PriceSort";
 
 class Main extends React.Component {
     constructor(props) {
@@ -23,22 +22,25 @@ class Main extends React.Component {
 
     render() {
         return (
-            <div className="goods">
-                {this.state.data.map((product) => <a className={""}>
-                    <div className="product__image">
-                        <img src={product.image} alt="Product"></img>
-                    </div>
-                    <div className="product__foot">
-                        <div>
-                            <p className={"product__name"}>{product.name}</p>
-                            <p className={"product__price"}>{product.price}</p>
+            <div>
+                <PriceSort/>
+                <div className="goods">
+                    {this.state.data.map((product) => <a className={""}>
+                        <div className="product__image">
+                            <img src={product.image} alt="Product"></img>
                         </div>
-                        <div>
-                            <Counter/>
-                            <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
+                        <div className="product__foot">
+                            <div>
+                                <p className={"product__name"}>{product.name}</p>
+                                <p className={"product__price"}>{product.price}</p>
+                            </div>
+                            <div>
+                                <Counter/>
+                                <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
+                            </div>
                         </div>
-                    </div>
-                </a>)}
+                    </a>)}
+                </div>
             </div>
         )
     }
