@@ -2,6 +2,7 @@ import React from 'react';
 import {Main} from "./Main";
 
 const ProductList = () => {
+
     return (
         <div>
             <div className="products__top">

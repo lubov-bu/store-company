@@ -1,6 +1,5 @@
 import React from "react";
 import Counter from "./Counter";
-import PriceSort from "./PriceSort";
 
 class Main extends React.Component {
     constructor(props) {
@@ -17,13 +16,11 @@ class Main extends React.Component {
                 data.sort((a, b) => a.name.localeCompare(b.name));
                 this.setState({data});
             });
-
     }
 
     render() {
         return (
             <div>
-                <PriceSort/>
                 <div className="goods">
                     {this.state.data.map((product) => <a className={""}>
                         <div className="product__image">
