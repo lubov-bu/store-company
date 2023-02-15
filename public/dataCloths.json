@@ -58,5 +58,11 @@
     "name": "Top",
     "price": "2,90",
     "image": "http://195.133.75.184/images/top10.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Top",
+    "price": "2,90",
+    "image": "http://195.133.75.184/images/top10.jpg"
   }
 ]
