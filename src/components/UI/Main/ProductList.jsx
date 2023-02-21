@@ -1,5 +1,5 @@
 import React from 'react';
-import {Main} from "./Main";
+import {Product} from "./Product";
 import '../../../styles/media.css';
 
 const ProductList = ({children}) => {
@@ -13,7 +13,7 @@ const ProductList = ({children}) => {
                 </div>
             </div>
             <div>
-                <Main/>
+                <Product/>
             </div>
         </div>
     );

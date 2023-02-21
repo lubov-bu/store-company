@@ -1,68 +1,94 @@
 [
   {
     "id": 1,
+    "type": "Top",
     "name": "Top",
     "price": "1,90",
     "image": "http://195.133.75.184/images/top1.jpg"
   },
   {
     "id": 2,
+    "type": "Top",
     "name": "Beautiful Top",
     "price": "2,90",
     "image": "http://195.133.75.184/images/top2.jpg"
   },
   {
-    "id": 2,
+    "id": 3,
+    "type": "Top",
     "name": "Awesome Top",
     "price": "2,90",
     "image": "http://195.133.75.184/images/top3.jpg"
   },
   {
-    "id": 1,
+    "id": 4,
+    "type": "Top",
     "name": "Cool Top",
     "price": "1,90",
     "image": "http://195.133.75.184/images/top4.jpg"
   },
   {
-    "id": 2,
+    "id": 5,
+    "type": "Top",
     "name": "Nice Top",
     "price": "2,90",
     "image": "http://195.133.75.184/images/top5.jpg"
   },
   {
-    "id": 2,
+    "id": 6,
+    "type": "Top",
     "name": "Top",
     "price": "2,90",
     "image": "http://195.133.75.184/images/top6.jpg"
   },
   {
-    "id": 1,
+    "id": 7,
+    "type": "Top",
     "name": "Top",
     "price": "1,90",
     "image": "http://195.133.75.184/images/top7.png"
   },
   {
-    "id": 2,
+    "id": 8,
+    "type": "Top",
     "name": "Top",
     "price": "2,90",
     "image": "http://195.133.75.184/images/top8.jpg"
   },
   {
-    "id": 1,
+    "id": 9,
+    "type": "Top",
     "name": "Top",
     "price": "1,90",
     "image": "http://195.133.75.184/images/top9.jpg"
   },
   {
-    "id": 2,
+    "id": 10,
+    "type": "Top",
     "name": "Top",
     "price": "2,90",
     "image": "http://195.133.75.184/images/top10.jpg"
   },
   {
-    "id": 2,
+    "id": 11,
+    "type": "Top",
     "name": "Top",
     "price": "2,90",
     "image": "http://195.133.75.184/images/top10.jpg"
+  },
+  {
+    "id": 12,
+    "type": "Sport wear",
+    "name": "Top",
+    "price": "2,90",
+    "image": "http://195.133.75.184/images/sport1.jpg"
+  },
+  {
+    "id": 13,
+    "type": "Sport wear",
+    "name": "Top",
+    "price": "2,90",
+    "image": "http://195.133.75.184/images/sport2.jpg"
   }
+
 ]
