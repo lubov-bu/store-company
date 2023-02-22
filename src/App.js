@@ -14,6 +14,7 @@ function App() {
     const [modal, setModal] = useState(false);
 
     return (
+
     <div className="App">
         <LogInModal visible={modal} setVisisble={setModal}>
             <div className={cl.modalBack} onClick={() => setModal(false)}></div>
@@ -26,10 +27,15 @@ function App() {
             <div className="middleLine">|</div>
             <Button>Sign Up</Button>
         </NavPanel>
-        <ProductList>Top</ProductList>
-        <ProductList>Sport wear</ProductList>
+        <div data-type-test="top">
+            <ProductList>Top</ProductList>
+        </div>
+        <div id="sport">
+            <ProductList>Sport wear</ProductList>
+        </div>
         <Footer/>
     </div>
+
   );
 }
 

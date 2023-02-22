@@ -2,6 +2,7 @@ import React from 'react';
 import {Product} from "./Product";
 import '../../../styles/media.css';
 
+
 const ProductList = ({children}) => {
 
     return (
