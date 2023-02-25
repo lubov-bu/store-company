@@ -8,6 +8,7 @@ import Button from "./components/UI/Navigation/Buttons/Button";
 import LogInForm from "./components/UI/Modals/Form/LogInForm";
 import cl from "./components/UI/Modals/Form/Form.module.css";
 import ProductList from "./components/UI/Main/ProductList";
+import Slider from "./components/UI/Modals/Slider/Slider";
 
 function App() {
 
@@ -26,11 +27,14 @@ function App() {
             <Button onClick={() => setModal(true)}>Log In</Button>
             <div className="middleLine">|</div>
             <Button>Sign Up</Button>
+            <a href="#">
+                <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
+            </a>
         </NavPanel>
-        <div data-type-test="top">
+        <div>
             <ProductList>Top</ProductList>
         </div>
-        <div id="sport">
+        <div>
             <ProductList>Sport wear</ProductList>
         </div>
         <Footer/>

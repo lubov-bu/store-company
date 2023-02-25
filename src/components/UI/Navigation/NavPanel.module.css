@@ -6,9 +6,13 @@
     border-bottom: solid 1px black;
 }
 
-.nav__links {
+.nav__links,
+.nav__links > a {
     display: flex;
+}
 
+.nav__links > a {
+    align-items: center;
 }
 
 @media screen and (max-width: 1200px) {

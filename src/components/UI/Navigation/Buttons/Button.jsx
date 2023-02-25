@@ -3,9 +3,9 @@ import cl from './Button.module.css';
 
 const Button = ({children, ...props}) => {
     return (
-        <button {...props} className={cl.button}>
+        <a href="#" {...props} className={cl.button}>
             {children}
-        </button>
+        </a>
     );
 };
 
