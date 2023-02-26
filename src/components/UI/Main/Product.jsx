@@ -25,7 +25,7 @@ class Product extends React.Component {
                 <div className="products">
                     <div className="products__list">
                         {this.state.data.filter((product, index) => index < 8).map((product) =>
-                            <a>
+                            <a key={product.id}>
                                 <div className="product__image">
                                     <div className="product__image__item">
                                         <img src={product.image} alt="Product"></img>
