@@ -27,7 +27,11 @@ class Product extends React.Component {
                         {this.state.data.filter((product, index) => index < 8).map((product) =>
                             <a>
                                 <div className="product__image">
-                                    <img src={product.image} alt="Product"></img>
+                                    <div className="product__image__item">
+                                        <img src={product.image} alt="Product"></img>
+                                    </div>
+                                    <a className="product__previous">&#10094;</a>
+                                    <a className="product__next">&#10095;</a>
                                 </div>
                                 <div className="product__foot">
                                     <div>

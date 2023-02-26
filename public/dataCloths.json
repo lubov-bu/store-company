@@ -4,91 +4,117 @@
     "type": "Top",
     "name": "Top",
     "price": "1,90",
-    "image": "http://195.133.75.184/images/top1.jpg"
+    "image": "http://195.133.75.184/images/top1.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 2,
     "type": "Top",
     "name": "Beautiful Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/top2.jpg"
+    "image": "http://195.133.75.184/images/top2.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 3,
     "type": "Top",
     "name": "Awesome Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/top3.jpg"
+    "image": "http://195.133.75.184/images/top3.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 4,
     "type": "Top",
     "name": "Cool Top",
     "price": "1,90",
-    "image": "http://195.133.75.184/images/top4.jpg"
+    "image": "http://195.133.75.184/images/top4.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 5,
     "type": "Top",
     "name": "Nice Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/top5.jpg"
+    "image": "http://195.133.75.184/images/top5.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 6,
     "type": "Top",
     "name": "Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/top6.jpg"
+    "image": "http://195.133.75.184/images/top6.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 7,
     "type": "Top",
     "name": "Top",
     "price": "1,90",
-    "image": "http://195.133.75.184/images/top7.png"
+    "image": "http://195.133.75.184/images/top7.png",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 8,
     "type": "Top",
     "name": "Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/top8.jpg"
+    "image": "http://195.133.75.184/images/top8.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 9,
     "type": "Top",
     "name": "Top",
     "price": "1,90",
-    "image": "http://195.133.75.184/images/top9.jpg"
+    "image": "http://195.133.75.184/images/top9.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 10,
     "type": "Top",
     "name": "Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/top10.jpg"
+    "image": "http://195.133.75.184/images/top10.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 11,
     "type": "Top",
     "name": "Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/top10.jpg"
+    "image": "http://195.133.75.184/images/top10.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 12,
     "type": "Sport wear",
     "name": "Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/sport1.jpg"
+    "image": "http://195.133.75.184/images/sport1.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   },
   {
     "id": 13,
     "type": "Sport wear",
     "name": "Top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/sport2.jpg"
+    "image": "http://195.133.75.184/images/sport2.jpg",
+    "image2": "http://195.133.75.184/images/top10.jpg",
+    "image3": "http://195.133.75.184/images/sport1.jpg"
   }
 
 ]
