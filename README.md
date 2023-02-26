@@ -1,4 +1,4 @@
-# This is an internet store of clothes built on React
+# Clothes store built on React
 
 ## Available Scripts
 
