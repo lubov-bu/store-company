@@ -149,6 +149,10 @@ a {
     font-size: 20px;
 }
 
+.product__name {
+    text-align: left;
+}
+
 .product__price {
     color: #a15f7f;
     text-align: left;
