@@ -18,7 +18,7 @@ class Product extends React.Component {
 
     componentDidMount() {
 
-        fetch("http://localhost:3000/dataCloths.json")
+        fetch("http://195.133.75.184/dataCloths.json")
 
             .then((response) => response.json())
             .then((data) => {
@@ -33,7 +33,7 @@ class Product extends React.Component {
                 <div className="products">
                     <div className="products__list">
                         {this.state.data.filter((product, index) => index < 8).map((product) =>
-                            <a key={product.id}>
+                            <a key={product.id} href="#">
                                 <Swiper className="product__image"
                                         cssMode={true}
                                         navigation={true}
