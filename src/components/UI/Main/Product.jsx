@@ -18,7 +18,7 @@ class Product extends React.Component {
 
     componentDidMount() {
 
-        fetch("http://195.133.75.184/dataCloths.json")
+        fetch("dataCloths.json")
 
             .then((response) => response.json())
             .then((data) => {
@@ -59,7 +59,7 @@ class Product extends React.Component {
                                     </div>
                                     <div>
                                         <Counter/>
-                                        <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
+                                        <img className="product__cart" src="./images/cart.png" alt="Cart"/>
                                     </div>
                                 </div>
                             </a>

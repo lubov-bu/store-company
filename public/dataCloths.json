@@ -4,117 +4,117 @@
     "type": "Top",
     "name": "Beige summer top",
     "price": "1,90",
-    "image": "http://195.133.75.184/images/store/top1.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top1.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top1.3.jpg"
+    "image": "./images/top1.1.jpg",
+    "image2": "./images/top1.2.jpg",
+    "image3": "./images/top1.3.jpg"
   },
   {
     "id": 2,
     "type": "Top",
     "name": "Leather top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top2.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top2.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top2.3.jpg"
+    "image": "./images/top2.1.jpg",
+    "image2": "./images/top2.2.jpg",
+    "image3": "./images/top2.3.jpg"
   },
   {
     "id": 3,
     "type": "Top",
     "name": "Blue crop-top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top3.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top3.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top3.3.png"
+    "image": "./images/top3.1.jpg",
+    "image2": "./images/top3.2.jpg",
+    "image3": "./images/top3.3.png"
   },
   {
     "id": 4,
     "type": "Top",
     "name": "Blue jacket top",
     "price": "1,90",
-    "image": "http://195.133.75.184/images/store/top4.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top4.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top4.3.jpg"
+    "image": "./images/top4.1.jpg",
+    "image2": "./images/top4.2.jpg",
+    "image3": "./images/top4.3.jpg"
   },
   {
     "id": 5,
     "type": "Top",
     "name": "Purple top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top5.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top5.2.png",
-    "image3": "http://195.133.75.184/images/store/top5.3.jpg"
+    "image": "./images/top5.1.jpg",
+    "image2": "./images/top5.2.png",
+    "image3": "./images/top5.3.jpg"
   },
   {
     "id": 6,
     "type": "Top",
     "name": "Windy purple top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top6.2.png",
-    "image2": "http://195.133.75.184/images/store/top6.2.png",
-    "image3": "http://195.133.75.184/images/store/top6.3.jpg"
+    "image": "./images/top6.2.png",
+    "image2": "./images/top6.2.png",
+    "image3": "./images/top6.3.jpg"
   },
   {
     "id": 7,
     "type": "Top",
     "name": "Black crop top",
     "price": "1,90",
-    "image": "http://195.133.75.184/images/store/top7.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top7.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top7.3.jpg"
+    "image": "./images/top7.1.jpg",
+    "image2": "./images/top7.2.jpg",
+    "image3": "./images/top7.3.jpg"
   },
   {
     "id": 8,
     "type": "Top",
     "name": "Beige shiny top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top8.1.png",
-    "image2": "http://195.133.75.184/images/store/top8.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top8.3.jpg"
+    "image": "./images/top8.1.png",
+    "image2": "./images/top8.2.jpg",
+    "image3": "./images/top8.3.jpg"
   },
   {
     "id": 9,
     "type": "Top",
     "name": "White top",
     "price": "1,90",
-    "image": "http://195.133.75.184/images/store/top9.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top9.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top9.3.jpg"
+    "image": "./images/top9.1.jpg",
+    "image2": "./images/top9.2.jpg",
+    "image3": "./images/top9.3.jpg"
   },
   {
     "id": 10,
     "type": "Top",
     "name": "Zebra print top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top10.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top10.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top10.3.webp"
+    "image": "./images/top10.1.jpg",
+    "image2": "./images/top10.2.jpg",
+    "image3": "./images/top10.3.webp"
   },
   {
     "id": 11,
     "type": "Top",
     "name": "Cloud white top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top11.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top11.2.png",
-    "image3": "http://195.133.75.184/images/store/top11.3.jpg"
+    "image": "./images/top11.1.jpg",
+    "image2": "./images/top11.2.png",
+    "image3": "./images/top11.3.jpg"
   },
   {
     "id": 12,
     "type": "Sport wear",
     "name": "White top",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top12.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top12.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top12.3.png"
+    "image": "./images/top12.1.jpg",
+    "image2": "./images/top12.2.jpg",
+    "image3": "./images/top12.3.png,"
   },
   {
     "id": 13,
     "type": "Sport wear",
     "name": "Shirt with zebra",
     "price": "2,90",
-    "image": "http://195.133.75.184/images/store/top13.1.jpg",
-    "image2": "http://195.133.75.184/images/store/top13.2.jpg",
-    "image3": "http://195.133.75.184/images/store/top13.3.png"
+    "image": "./images/top13.1.jpg",
+    "image2": "./images/top13.2.jpg",
+    "image3": "./images/top13.3.png"
   }
 
 ]
