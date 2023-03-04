@@ -162,10 +162,6 @@ a {
     height: 30px;
 }
 
-.swiper-pagination-bullet-active {
-    background-color: #fff !important;
-}
-
 .swiper-button-next:after,
 .swiper-button-prev:after {
     color: #ffffff !important;

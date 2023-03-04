@@ -37,9 +37,9 @@ class Product extends React.Component {
                                 <Swiper className="product__image"
                                         cssMode={true}
                                         navigation={true}
-                                        pagination={true}
                                         mousewheel={true}
                                         keyboard={true}
+                                        loop={true}
                                         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                                 >
                                     <SwiperSlide className="product__image__item">
@@ -59,7 +59,7 @@ class Product extends React.Component {
                                     </div>
                                     <div>
                                         <Counter/>
-                                        <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
+                                        <img className="product__cart" src="/images/cart.png" alt="Cart"/>
                                     </div>
                                 </div>
                             </a>

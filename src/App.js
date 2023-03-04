@@ -27,7 +27,7 @@ function App() {
             <div className="middleLine">|</div>
             <Button>Sign Up</Button>
             <a href="#">
-                <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
+                <img className="product__cart" src="/images/cart.png" alt="Cart"/>
             </a>
         </NavPanel>
         <div>

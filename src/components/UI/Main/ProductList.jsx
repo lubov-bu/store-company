@@ -9,7 +9,7 @@ const ProductList = ({children}) => {
         <div>
             <div className="products__top">
                 <div>
-                    <img className="products__pic" src="http://195.133.75.184/images/heart-pic.png" alt="Heart"/>
+                    <img className="products__pic" src="/images/heart-pic.png" alt="Heart"/>
                 </div>
                 <h1 className="products__title">{children}</h1>
             </div>
