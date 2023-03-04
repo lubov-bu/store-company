@@ -59,7 +59,7 @@ class Product extends React.Component {
                                     </div>
                                     <div>
                                         <Counter/>
-                                        <img className="product__cart" src="./images/cart.png" alt="Cart"/>
+                                        <img className="product__cart" src="http://195.133.75.184/images/cart.png" alt="Cart"/>
                                     </div>
                                 </div>
                             </a>
