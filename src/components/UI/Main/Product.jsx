@@ -38,7 +38,6 @@ class Product extends React.Component {
                                         cssMode={true}
                                         navigation={true}
                                         mousewheel={true}
-                                        keyboard={true}
                                         loop={true}
                                         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                                 >
