@@ -1,17 +1,12 @@
 import React from 'react';
 import cl from "./Form.module.css";
 
-const LogInForm = ({children}) => {
-
+const LogInForm = () => {
     return (
-        <div className="logInModalContent">
-            <div className={cl.logInForm}>
-                <p>Log in and Go shopping!</p>
-                {children}
-                <input type="text" placeholder="Username" className={cl.loginInput}/>
-                <input type="text" placeholder="Password" className={cl.loginPassInput}/>
-                <button className={cl.logInButton}>Log In</button>
-            </div>
+        <div className={cl.logInForm}>
+            <label htmlFor="login">Log in</label>
+            <input type="text" name="login" placeholder="Login or e-mail" className={cl.loginInput}/>
+            <input type="password" placeholder="Password" className={cl.loginPassInput}/>
         </div>
     );
 };
