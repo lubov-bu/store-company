@@ -30,7 +30,8 @@ class Product extends React.Component {
             });
     }
 
-    handleShowMore = () => {
+    handleShowMore = (e) => {
+        e.preventDefault();
         this.setState({count: this.state.count + 8});
     };
 
