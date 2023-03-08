@@ -115,6 +115,104 @@
     "image": "./images/top13.1.jpg",
     "image2": "./images/top13.2.jpg",
     "image3": "./images/top13.3.png"
+  },
+  {
+    "id": 14,
+    "type": "Top",
+    "name": "Black crop top",
+    "price": "1,90",
+    "image": "./images/top7.1.jpg",
+    "image2": "./images/top7.2.jpg",
+    "image3": "./images/top7.3.jpg"
+  },
+  {
+    "id": 15,
+    "type": "Top",
+    "name": "Beige shiny top",
+    "price": "2,90",
+    "image": "./images/top8.1.png",
+    "image2": "./images/top8.2.jpg",
+    "image3": "./images/top8.3.jpg"
+  },
+  {
+    "id": 16,
+    "type": "Top",
+    "name": "White top",
+    "price": "1,90",
+    "image": "./images/top9.1.jpg",
+    "image2": "./images/top9.2.jpg",
+    "image3": "./images/top9.3.jpg"
+  },
+  {
+    "id": 17,
+    "type": "Top",
+    "name": "Zebra print top",
+    "price": "2,90",
+    "image": "./images/top10.1.jpg",
+    "image2": "./images/top10.2.jpg",
+    "image3": "./images/top10.3.webp"
+  },
+  {
+    "id": 18,
+    "type": "Top",
+    "name": "Cloud white top",
+    "price": "2,90",
+    "image": "./images/top11.1.jpg",
+    "image2": "./images/top11.2.png",
+    "image3": "./images/top11.3.jpg"
+  },
+  {
+    "id": 19,
+    "type": "Sport wear",
+    "name": "White top",
+    "price": "2,90",
+    "image": "./images/top12.1.jpg",
+    "image2": "./images/top12.2.jpg",
+    "image3": "./images/top12.3.png,"
+  },
+  {
+    "id": 20,
+    "type": "Top",
+    "name": "Zebra print top",
+    "price": "2,90",
+    "image": "./images/top10.1.jpg",
+    "image2": "./images/top10.2.jpg",
+    "image3": "./images/top10.3.webp"
+  },
+  {
+    "id": 21,
+    "type": "Top",
+    "name": "Cloud white top",
+    "price": "2,90",
+    "image": "./images/top11.1.jpg",
+    "image2": "./images/top11.2.png",
+    "image3": "./images/top11.3.jpg"
+  },
+  {
+    "id": 22,
+    "type": "Top",
+    "name": "Zebra print top",
+    "price": "2,90",
+    "image": "./images/top10.1.jpg",
+    "image2": "./images/top10.2.jpg",
+    "image3": "./images/top10.3.webp"
+  },
+  {
+    "id": 23,
+    "type": "Top",
+    "name": "Cloud white top",
+    "price": "2,90",
+    "image": "./images/top11.1.jpg",
+    "image2": "./images/top11.2.png",
+    "image3": "./images/top11.3.jpg"
+  },
+  {
+    "id": 24,
+    "type": "Top",
+    "name": "Zebra print top",
+    "price": "2,90",
+    "image": "./images/top10.1.jpg",
+    "image2": "./images/top10.2.jpg",
+    "image3": "./images/top10.3.webp"
   }
-
 ]
