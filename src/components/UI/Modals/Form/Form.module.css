@@ -49,7 +49,7 @@
 .logInButton:hover {
     box-shadow: 1px 0 40px rgba(255, 221, 226, 1), 0 -12px 22px rgba(255, 255, 255, 0.77), 0 4px 6px rgba(255, 221, 226, 1), 0 -3px 5px rgba(255, 221, 226, 1);
     font-weight: bold;
-    transition: all 0.5s ease-out .3s;
+    transition: all 0.2s ease-out .1s;
 }
 
 
