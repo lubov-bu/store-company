@@ -3,7 +3,7 @@ import {Product} from "./Product";
 import '../../../styles/media.css';
 
 
-const ProductList = ({children}) => {
+const ProductList = () => {
 
     return (
         <div>
@@ -11,7 +11,6 @@ const ProductList = ({children}) => {
                 <div>
                     <img className="products__pic" src="/images/heart-pic.png" alt="Heart"/>
                 </div>
-                <h1 className="products__title">{children}</h1>
             </div>
             <div>
                 <Product/>

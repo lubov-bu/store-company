@@ -100,7 +100,7 @@
   },
   {
     "id": 12,
-    "type": "Sport wear",
+    "type": "Sport",
     "name": "White top",
     "price": "2,90",
     "image": "./images/top12.1.jpg",
@@ -109,7 +109,7 @@
   },
   {
     "id": 13,
-    "type": "Sport wear",
+    "type": "Sport",
     "name": "Shirt with zebra",
     "price": "2,90",
     "image": "./images/top13.1.jpg",
@@ -163,7 +163,7 @@
   },
   {
     "id": 19,
-    "type": "Sport wear",
+    "type": "Sport",
     "name": "White top",
     "price": "2,90",
     "image": "./images/top12.1.jpg",

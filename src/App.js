@@ -31,10 +31,7 @@ function App() {
             </a>
         </NavPanel>
         <div>
-            <ProductList>Top</ProductList>
-        </div>
-        <div>
-            <ProductList>Sport wear</ProductList>
+            <ProductList/>
         </div>
         <Footer/>
     </div>

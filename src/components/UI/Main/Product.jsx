@@ -1,8 +1,8 @@
 import React from "react";
 import Counter from "./Counter";
 import '../../../styles/media.css';
-import {Navigation, Pagination, Mousewheel, Keyboard} from 'swiper';
 
+import {Navigation, Pagination, Mousewheel, Keyboard} from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/css';
@@ -38,6 +38,7 @@ class Product extends React.Component {
     render() {
         return (
             <div>
+                <h1 className="products__title"></h1>
                 <div className="products">
                     <div className="products__list">
                         {this.state.data
