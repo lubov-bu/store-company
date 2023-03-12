@@ -1,7 +1,7 @@
 import React from 'react';
 import './LogInModal.css';
 
-const LogInModal = ({children, visible, setModal}) => {
+const LogInModal = ({children, visible}) => {
 
     const rootClasses = ["logInModal"]
 
@@ -11,7 +11,7 @@ const LogInModal = ({children, visible, setModal}) => {
 
     return (
         <div>
-            <div className={rootClasses.join(' ')} onClick={() => setModal(false)}>
+            <div className={rootClasses.join(' ')}>
                 {children}
             </div>
         </div>

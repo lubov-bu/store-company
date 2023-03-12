@@ -11,9 +11,8 @@ const ModalLogInForm = ({children}) => {
             <div className={cl.logInForm}>
                 <p>Log in and Go shopping!</p>
                 <LogInForm/>
-                <p className={cl.loginSwitch}>or</p>
                 <SignUpForm/>
-                <LoginButton>Continue</LoginButton>
+                <LoginButton>Register</LoginButton>
                 {children}
             </div>
         </div>

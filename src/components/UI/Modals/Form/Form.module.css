@@ -8,12 +8,15 @@
 
 .logInForm > label,
 .signUpForm > label {
-    margin: 0 0 20px 8px;
+    margin-left: 8px;
     color: #a15f7f;
 }
 
 .loginSwitch {
-    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .loginPassInput,
@@ -22,10 +25,16 @@
 .loginInput,
 .signupInput {
     height: 40px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     border-radius: 10px;
     border: solid black 1px;
     padding: 5px 10px;
+}
+
+.loginError {
+    color: red;
+    font-size: 10px;
+    margin: 4px 0 0 8px;
 }
 
 .loginExit {
@@ -37,7 +46,7 @@
 
 .logInButton {
     padding: 13px;
-    margin: 20px 0 10px 0;
+    margin: 20px 0 5px 0;
     background: color(srgb 0.9955 0.7096 0.7551/0.47);
     color: black;
     border-radius: 10px;
@@ -51,7 +60,6 @@
     font-weight: bold;
     transition: all 0.2s ease-out .1s;
 }
-
 
 .modalBack {
     position: absolute;
