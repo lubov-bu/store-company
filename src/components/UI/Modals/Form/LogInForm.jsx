@@ -9,7 +9,7 @@ const LogInForm = () => {
     const onSubmit = (data) => console.log(data);
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} className={cl.signUpForm}>
+        <form onSubmit={handleSubmit(onSubmit)} className={cl.logInForm}>
             <label htmlFor="e-mail">Log in</label>
 
             {/*e-mail input */}

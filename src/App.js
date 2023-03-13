@@ -15,28 +15,28 @@ function App() {
 
     return (
 
-    <div className="App">
-        <LogInModal visible={modal} setVisisble={setModal}>
-            <div className={cl.modalBack} onClick={() => setModal(false)}></div>
-            <ModalLogInForm>
-                <button className={cl.loginExit} onClick={() => setModal(false)}>x</button>
-            </ModalLogInForm>
-        </LogInModal>
-        <NavPanel>
-            <Button onClick={() => setModal(true)}>Log In</Button>
-            <div className="middleLine">|</div>
-            <Button onClick={() => setModal(true)}>Sign Up</Button>
-            <a href="#">
-                <img className="product__cart" src="/images/cart.png" alt="Cart"/>
-            </a>
-        </NavPanel>
-        <div>
-            <ProductList/>
+        <div className="App">
+            <LogInModal visible={modal} setVisisble={setModal}>
+                <div className={cl.modalBack} onClick={() => setModal(false)}></div>
+                <ModalLogInForm>
+                    <button className={cl.loginExit} onClick={() => setModal(false)}>x</button>
+                </ModalLogInForm>
+            </LogInModal>
+            <NavPanel>
+                <Button onClick={() => setModal(true)}>Log In</Button>
+                <div className="middleLine">|</div>
+                <Button onClick={() => setModal(true)}>Sign Up</Button>
+                <a href="#">
+                    <img className="product__cart" src="/images/cart.png" alt="Cart"/>
+                </a>
+            </NavPanel>
+            <div>
+                <ProductList/>
+            </div>
+            <Footer/>
         </div>
-        <Footer/>
-    </div>
 
-  );
+    );
 }
 
 export default App;

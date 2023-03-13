@@ -6,13 +6,19 @@ import SignUpForm from "./SignUpForm";
 
 const ModalLogInForm = ({children}) => {
 
+    function switchModal(e) {
+        let signUp = document.getElementsByClassName(".signUpForm");
+        signUp.classList.add(".sign_active");
+        e.preventDefault();
+    }
+
     return (
         <div className="logInModalContent">
             <div className={cl.logInForm}>
                 <p>Log in and Go shopping!</p>
                 <LogInForm/>
+                <LoginButton onClick={switchModal}>Register</LoginButton>
                 <SignUpForm/>
-                <LoginButton>Register</LoginButton>
                 {children}
             </div>
         </div>

@@ -78,3 +78,11 @@ p {
     text-align: center;
 }
 
+.signUpForm {
+    display: none;
+}
+
+.sign_active {
+    display: flex;
+}
+
