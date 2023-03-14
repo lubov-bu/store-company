@@ -1,5 +1,5 @@
 import React from 'react';
-import cl from "./Form.module.css";
+import "./Form.css";
 import {useForm} from "react-hook-form";
 import LoginButton from "../../Buttons/LoginButton";
 
@@ -9,7 +9,7 @@ const SignUpForm = () => {
     const onSubmit = (data) => console.log(data);
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} className={cl.signUpForm}>
+        <form onSubmit={handleSubmit(onSubmit)} className="signUpForm signUpContent">
             <label htmlFor="signup">Sign up</label>
 
             {/*username input */}
@@ -17,13 +17,13 @@ const SignUpForm = () => {
                    type="text"
                    aria-invalid={errors.name ? "true" : "false"}
                    {...register('name', {required: true, maxLength: 20, pattern: /^[A-Za-z]+$/i})}
-                   placeholder="Username" className={cl.loginInput}/>
+                   placeholder="Username" className="loginInput"/>
             {/*indicate input contain error */}
             {errors.name && errors.name.type === "required" && (
-                <span role="alert" className={cl.loginError}>This is required</span>
+                <span role="alert" className="loginError">This is required</span>
             )}
             {errors.name && errors.name.type === "maxLength" && (
-                <span role="alert" className={cl.loginError}>Max length exceeded</span>
+                <span role="alert" className="loginError">Max length exceeded</span>
             )}
 
             {/*e-mail input */}
@@ -31,12 +31,12 @@ const SignUpForm = () => {
                    type="email"
                    aria-invalid={errors.mail ? "true" : "false"}
                    {...register("mail", {required: true, pattern: /\S+@\S+\.\S+/})} placeholder="E-mail"
-                   className={cl.loginInput}/>
+                   className="loginInput"/>
             {errors.mail && errors.mail.type === "required" && (
-                <span role="alert" className={cl.loginError}>This is required</span>
+                <span role="alert" className="loginError">This is required</span>
             )}
             {errors.mail && errors.mail.type === "pattern" && (
-                <span role="alert" className={cl.loginError}>E-mail is not valid</span>
+                <span role="alert" className="loginError">E-mail is not valid</span>
             )}
 
             {/*password input */}
@@ -44,12 +44,12 @@ const SignUpForm = () => {
                    type="password"
                    aria-invalid={errors.password ? "true" : "false"}
                    {...register("password", {required: true, minLength: 10})} placeholder="Password"
-                   className={cl.loginInput}/>
+                   className="loginInput"/>
             {errors.password && errors.password.type === "required" && (
-                <span role="alert" className={cl.loginError}>This is required</span>
+                <span role="alert" className="loginError">This is required</span>
             )}
             {errors.password && errors.password.type === "minLength" && (
-                <span role="alert" className={cl.loginError}>Min length is 10 symbols</span>
+                <span role="alert" className="loginError">Min length is 10 symbols</span>
             )}
 
             <LoginButton type="submit">Enter</LoginButton>

@@ -1,5 +1,5 @@
 import React from 'react';
-import cl from "./Form.module.css";
+import "./Form.css";
 import {useForm} from "react-hook-form";
 import LoginButton from "../../Buttons/LoginButton";
 
@@ -9,7 +9,7 @@ const LogInForm = () => {
     const onSubmit = (data) => console.log(data);
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} className={cl.logInForm}>
+        <form onSubmit={handleSubmit(onSubmit)} className="logInForm">
             <label htmlFor="e-mail">Log in</label>
 
             {/*e-mail input */}
@@ -17,12 +17,12 @@ const LogInForm = () => {
                    type="email"
                    aria-invalid={errors.mail ? "true" : "false"}
                    {...register("mail", {required: true, pattern: /\S+@\S+\.\S+/})} placeholder="E-mail"
-                   className={cl.loginInput}/>
+                   className="loginInput"/>
             {errors.mail && errors.mail.type === "required" && (
-                <span role="alert" className={cl.loginError}>This is required</span>
+                <span role="alert" className="loginError">This is required</span>
             )}
             {errors.mail && errors.mail.type === "pattern" && (
-                <span role="alert" className={cl.loginError}>E-mail is not valid</span>
+                <span role="alert" className="loginError">E-mail is not valid</span>
             )}
 
             {/*password input */}
@@ -30,15 +30,15 @@ const LogInForm = () => {
                    type="password"
                    aria-invalid={errors.password ? "true" : "false"}
                    {...register("password", {required: true, minLength: 10})} placeholder="Password"
-                   className={cl.loginInput}/>
+                   className="loginInput"/>
             {errors.password && errors.password.type === "required" && (
-                <span role="alert" className={cl.loginError}>This is required</span>
+                <span role="alert" className="loginError">This is required</span>
             )}
             {errors.password && errors.password.type === "minLength" && (
-                <span role="alert" className={cl.loginError}>Min length is 10 symbols</span>
+                <span role="alert" className="loginError">Min length is 10 symbols</span>
             )}
 
-            <a href="#" className={cl.loginSwitch}>Forgot password</a>
+            <a href="#" className="loginSwitch">Forgot password</a>
             <LoginButton type="submit">Enter</LoginButton>
         </form>
     );

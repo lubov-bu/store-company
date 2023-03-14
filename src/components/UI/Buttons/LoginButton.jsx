@@ -1,10 +1,11 @@
 import React from 'react';
-import cl from "../Modals/Form/Form.module.css";
+import "../Modals/Form/Form.css";
 
-const LoginButton = ({children}) => {
+const LoginButton = ({onClick, children}) => {
+
     return (
         <div>
-            <button type="button" className={cl.logInButton}>{children}</button>
+            <button type="button" className="logInButton" onClick={onClick}>{children}</button>
         </div>
     );
 };

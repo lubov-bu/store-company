@@ -6,7 +6,7 @@ import Footer from "./components/UI/Footer/Footer";
 import LogInModal from "./components/UI/Modals/LogInModal";
 import Button from "./components/UI/Navigation/Buttons/Button";
 import ModalLogInForm from "./components/UI/Modals/Form/ModalLogInForm";
-import cl from "./components/UI/Modals/Form/Form.module.css";
+import "./components/UI/Modals/Form/Form.css";
 import ProductList from "./components/UI/Main/ProductList";
 
 function App() {
@@ -17,9 +17,9 @@ function App() {
 
         <div className="App">
             <LogInModal visible={modal} setVisisble={setModal}>
-                <div className={cl.modalBack} onClick={() => setModal(false)}></div>
+                <div className="modalBack" onClick={() => setModal(false)}></div>
                 <ModalLogInForm>
-                    <button className={cl.loginExit} onClick={() => setModal(false)}>x</button>
+                    <button className="loginExit" onClick={() => setModal(false)}>x</button>
                 </ModalLogInForm>
             </LogInModal>
             <NavPanel>

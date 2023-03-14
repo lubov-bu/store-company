@@ -78,11 +78,12 @@ p {
     text-align: center;
 }
 
-.signUpForm {
+.signUpContent,
+.logInContent {
     display: none;
 }
 
-.sign_active {
+.sign_active,
+.login_active {
     display: flex;
 }
-
