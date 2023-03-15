@@ -39,9 +39,9 @@
 
 .loginExit {
     position: absolute;
-    top: -17px;
-    right: -17px;
-    width: 10px;
+    top: 20px;
+    right: 20px;
+    width: 15px;
 }
 
 .logInButton {

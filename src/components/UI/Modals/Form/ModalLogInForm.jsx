@@ -1,4 +1,5 @@
 import React from 'react';
+import {useState} from "react";
 import "./Form.css";
 import LoginButton from "../../Buttons/LoginButton";
 import LogInForm from "./LogInForm";
@@ -6,12 +7,17 @@ import SignUpForm from "./SignUpForm";
 
 const ModalLogInForm = ({children}) => {
 
+    const [buttonText, setButtonText] = useState('Register');
+
     function switchModal(e) {
+        /*changing text in the button*/
+        setButtonText(buttonText === 'Register' ? 'Login' : 'Register');
+
         let signUp = document.querySelector(".signUpContent");
         let logIn = document.querySelector(".logInForm");
-
-        logIn.classList.add("logInContent");
-        signUp.classList.add("sign_active");
+        /*switching modals*/
+        logIn.classList.toggle("logInContent");
+        signUp.classList.toggle("sign_active");
 
         e.preventDefault();
     }
@@ -22,7 +28,7 @@ const ModalLogInForm = ({children}) => {
                 <p>Log in and Go shopping!</p>
                 <LogInForm/>
                 <SignUpForm/>
-                <LoginButton onClick={switchModal}>Register</LoginButton>
+                <LoginButton onClick={switchModal}>{buttonText}</LoginButton>
                 {children}
             </div>
         </div>
