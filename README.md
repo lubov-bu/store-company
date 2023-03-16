@@ -1,5 +1,9 @@
 # Clothes store built on React
 
+This is a simple one-page internet store.
+Here are used React-hook-form library for form validation
+and Swiper slider for product cards.
+
 ## Available Scripts
 
 In the project directory, you can run:
