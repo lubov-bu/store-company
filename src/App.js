@@ -24,7 +24,7 @@ function App() {
             </LogInModal>
             <NavPanel>
                 <Button onClick={() => setModal(true)}>Log In</Button>
-                <div className="middleLine">|</div>
+                <div className="middleLine">/</div>
                 <Button onClick={() => setModal(true)}>Sign Up</Button>
                 <a href="#">
                     <img className="product__cart" src="/images/cart.png" alt="Cart"/>

@@ -5,6 +5,13 @@ import LoginButton from "../../Buttons/LoginButton";
 import LogInForm from "./LogInForm";
 import SignUpForm from "./SignUpForm";
 
+export function signBut(e) {
+    let signUp = document.querySelector(".signUpContent");
+    signUp.classList.toggle("sign_active");
+
+    e.preventDefault();
+}
+
 const ModalLogInForm = ({children}) => {
 
     const [buttonText, setButtonText] = useState('Register');
