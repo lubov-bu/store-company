@@ -11,7 +11,7 @@
   {
     "id": 2,
     "type": "Top",
-    "name": "Leather top",
+    "name": "D-Leather top",
     "price": "2,90",
     "image": "./images/top2.1.jpg",
     "image2": "./images/top2.2.jpg",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "type": "Top",
-    "name": "Black crop top",
+    "name": "Dark crop top",
     "price": "1,90",
     "image": "./images/top7.1.jpg",
     "image2": "./images/top7.2.jpg",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "type": "Top",
-    "name": "Beige shiny top",
+    "name": "Shiny top",
     "price": "2,90",
     "image": "./images/top8.1.png",
     "image2": "./images/top8.2.jpg",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "type": "Top",
-    "name": "Cloud white top",
+    "name": "WCloud white top",
     "price": "2,90",
     "image": "./images/top11.1.jpg",
     "image2": "./images/top11.2.png",
@@ -146,7 +146,7 @@
   {
     "id": 17,
     "type": "Top",
-    "name": "Zebra print top",
+    "name": "CZebra print top",
     "price": "2,90",
     "image": "./images/top10.1.jpg",
     "image2": "./images/top10.2.jpg",
@@ -155,7 +155,7 @@
   {
     "id": 18,
     "type": "Top",
-    "name": "Cloud white top",
+    "name": "White top",
     "price": "2,90",
     "image": "./images/top11.1.jpg",
     "image2": "./images/top11.2.png",
@@ -200,7 +200,7 @@
   {
     "id": 23,
     "type": "Top",
-    "name": "Cloud white top",
+    "name": "Light top",
     "price": "2,90",
     "image": "./images/top11.1.jpg",
     "image2": "./images/top11.2.png",
@@ -209,7 +209,7 @@
   {
     "id": 24,
     "type": "Top",
-    "name": "Zebra print top",
+    "name": "FZebra print top",
     "price": "2,90",
     "image": "./images/top10.1.jpg",
     "image2": "./images/top10.2.jpg",
