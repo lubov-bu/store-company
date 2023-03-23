@@ -4,7 +4,7 @@ This is a simple one-page internet store.
 Here are used React-hook-form library for form validation
 and Swiper slider for product cards.
 
-<img src="https://github.com/Lubov-L/store-company/blob/master/public/images/Preview.png" style="width: 400px;" alt="preview">
+<img src="https://github.com/Lubov-L/store-company/blob/master/public/images/Preview.png" style="width: 600px;" alt="preview">
 
 ## Available Scripts
 
