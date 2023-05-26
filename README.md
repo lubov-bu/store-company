@@ -10,6 +10,7 @@ and Swiper slider for product cards.
 
 ### 1. Download an archive of project
 ### 2. `node.js` has to be installed on your computer
-### 3. Run `npm start`
-### 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Run `npm install`
+### 4. Run `npm start`
+### 5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
